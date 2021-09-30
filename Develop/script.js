@@ -13,13 +13,8 @@ var may11 = $("#may-11").text();
 
 
 
-
-
-
+//for displaying the date at the top of the webpage
 var currentDay = $("#currentDay");
-
-var today = moment();
-
 currentDay.text(today.format("MMM Do, YYYY"));
 
 
@@ -29,33 +24,20 @@ var timekeepr = 0;
 var time = setInterval(function() {
 mayarr = [may0,may1,may2,may3,may4,may5,may6,may7,may8,may9,may10,may11];
 
-
-
 for (i=0; i<12; i++) {
-    //I need all of them to be numbers, this took a long time to get working.
+    //I need all of them to be numbers, so I parseInt
 var x = parseInt(mayarr[i]);
 var y = parseInt(x-1);
 var z = parseInt(moment().format("H"));
-// var temparr = this;
-console.log(x,y,z);
-// console.log(may[i]);
+
+
 if ((x == z) || (y == z)) {
-    (mayarr[i]).parent().addClass(".present")
-    
-
-
-
-
+var w = "#may-" + [i]
+    $(w).parent().parent().addClass("present")
 }
-// if (a.format("H").diff(b,"H") < mayarr[i]) {
-// console.log(a.format("H"));
-// console.log(b)
-// } else {
-    
-// }
 
 
-// console.log(moment(mayarr[i]));
+
 }
 
 
