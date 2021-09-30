@@ -60,7 +60,10 @@ textarea{
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+.future {
+  background-color: var(--dg);
+  color: white;
+}
 .past {
   background-color: var(--g);
   color: var(--w);
@@ -71,10 +74,7 @@ textarea{
   color: var(--bb);
 }
 
-.future {
-  background-color: var(--dg);
-  color: white;
-}
+
 
 .saveBtn {
   /* border-left: 1px solid black; */
