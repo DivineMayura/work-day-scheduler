@@ -1,3 +1,22 @@
+:root {
+  --pur:  #361999;
+  --dg:   #20947C;
+  --bg:   #05F4B7;
+  --bb:   #000000;
+  --b:    #1A1A1A;
+  --g:    #3F4244;
+  --lg:   #5C5C5C;
+  --blw:  #E1F2F7;
+  --w:    #F6F6F6;
+  --p:    #E85971;
+  --pr:   #EF0D50;
+  --r:    #BE2F29;
+  --y:    #ECAF44;
+}
+
+
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -8,9 +27,9 @@ textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   padding: 10px;
+  width: 800px;
 }
 
 .jumbotron {
@@ -43,22 +62,22 @@ textarea{
 }
 
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: var(--g);
+  color: var(--w);
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: var(--bg);
+  color: var(--bb);
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: var(--dg);
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  /* border-left: 1px solid black; */
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
@@ -68,4 +87,21 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+  justify-self:center;
+}
+
+
+.may-time {
+  margin-top:auto;
+  margin-bottom:auto;
+  
+}
+
+.may-text {
+  margin-top:auto;
+  margin-bottom:auto;
+}
+.may-time-box {
+  margin-top:auto;
+  margin-bottom:auto;
 }
