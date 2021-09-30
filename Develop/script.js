@@ -15,7 +15,7 @@ var may11 = $("#may-11").text();
 
 //for displaying the date at the top of the webpage
 var currentDay = $("#currentDay");
-currentDay.text(today.format("MMM Do, YYYY"));
+currentDay.text(moment().format("MMM Do, YYYY"));
 
 
 
