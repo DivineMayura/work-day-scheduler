@@ -102,22 +102,9 @@ clock();
             return;
         }
         for (let i = 0; i < retrievedstorage.length; i++){
-
-            var placeholder = "#may-" + [i];
-
-            console.log($(placeholder).parent().parent().children().children('.camelia').text());
-
-            mayarr[i].parent().parent().children().children('.camelia').text() == retrievedstorage[i].text;
+            mayarr[i].parent().parent().children().children('.camelia').val(retrievedstorage[i].text);
         }}
-
 
 getcaterpillar()
 
-
-
-
-
-
 $(".row").on("click", ".may-button", saveit);
-
-
