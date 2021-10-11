@@ -3,10 +3,6 @@
 
 A simple Work Day Scheduler that displayes current time dynamically and allowes the user to set personal notes or schedule things on time blocks.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 
 ## Built With
 
@@ -22,10 +18,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [See Live Site](https://divinemayura.github.io/work-day-scheduler/)
 
+![Image of Deployed Site](save.jpg)
+
 
 ## Authors
 
-* **May** 
+* **May Faucher** 
 
 - [Link to Portfolio Site](https://divinemayura.github.io/)
 - [Link to Github](https://github.com/DivineMayura)
@@ -35,7 +33,5 @@ These instructions will get you a copy of the project up and running on your loc
 ## License
 
 This project is licensed under the MIT License 
-
-## Acknowledgments
 
 
